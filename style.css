@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightcyan;
+    }
+
+header {
+    padding: 2rem 4rem;
+    border-bottom: 2px solid #29213f;
+    background-color: darkcyan;
+}
+
+hgroup {
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color:white;
+    text-decoration: underline;
+    margin: 0rem 0rem 1rem;
+}
+
+main {
+    margin: 2rem 4rem;
+}
+
+h2 {
+    margin: 0rem 0rem 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+    /*max width löschen wenn ganze breite gewünscht*/
+    max-width: 80ch;
+}
+
+section li {
+    margin: 0rem 1rem;
+}
+
+/*Grid Flex Start*/
+/* .galery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.galery .dog {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figcaption {
+    margin: 0rem 0rem .8rem;
+    font-weight: bold;
+    text-align: center;
+} */
+/*Flex Test Ende*/
+
+/*Grid Test Start*/
+.galery-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.galery-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1.5rem;
+}
+
+.galery-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+/*Grid Test Ende*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+fieldset {
+    padding: 1rem 1rem;
+    max-width: 80ch;
+    background-color: powderblue;
+    text-align: center;
+}
+
+fieldset h2 {
+    text-decoration: underline;
+}
+
+form {
+    width: 30em;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: darkcyan;
+    text-align: center;
+    box-sizing: content-box;
+    height: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+}
